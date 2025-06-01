@@ -1,0 +1,30 @@
+[project]
+name = "mirai"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Magody",email = "meliodasfistery@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "unsloth",
+    "openai",
+    "matplotlib",
+    "plotly",
+    "nbformat",
+    "tqdm",
+    "flask",
+    "dotenv"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipywidgets = "^8.1.5"
+ipykernel = "^6.29.5"
+tensorboard = "^2.19.0"
+
